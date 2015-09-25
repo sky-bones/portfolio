@@ -12,10 +12,9 @@ I love grilled cheese, drawing spooky eyes, flowers and gardening. I am a curren
 
 **Contact**
 
-[@silent_v0id] (https://twitter.com/silent_v0id)
-
 hello@enichols.ca
 
+[@silent_v0id] (https://twitter.com/silent_v0id)
 
 
 
