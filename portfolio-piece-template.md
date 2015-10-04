@@ -1,21 +1,31 @@
 ---
 name: portfolio piece 1
 
-main img: spreadimg.jpg
+titleconcept:concept
 
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non bibendum tortor. Mauris sollicitudin lorem vitae nisi lacinia fermentum. Mauris dapibus, ligula aliquet ultrices varius, lectus leo vulputate erat, id maximus magna mauris at enim. Nulla leo dui, vehicula a augue sed.
+concept: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non bibendum tortor. Mauris sollicitudin lorem vitae nisi lacinia fermentum. Mauris dapibus, ligula aliquet ultrices varius, lectus leo vulputate erat, id maximus magna mauris at enim. Nulla leo dui, vehicula a augue sed.
 
-img:
+concept2: MAYBE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non bibendum tortor. Mauris sollicitudin lorem vitae nisi lacinia fermentum. Mauris dapibus, ligula aliquet ultrices varius, lectus leo vulputate erat, id maximus magna mauris at enim. Nulla leo dui, vehicula a augue sed.
+
+titlebuilding:Title
+
+imgbuilding:
 	- src: image-1.jpg
     caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 	- src: image-1.jpg
     caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
   - src: image-1.jpg
-    caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.(optional 4th)
+    caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-theme: blabla possibly execution or discussion of symbolism or a major point in each piece. possible conceptual discussion (i am word based i need to talk about it)
+titlebuilding: Title
 
-discussion: (maybe, depending on piece also optional)
+imgfinal:
+	- src: image-1.jpg
+    caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+	- src: image-1.jpg
+    caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+  - src: image-1.jpg
+    caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
 tools/programs:
 	- tool one
