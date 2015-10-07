@@ -47,10 +47,15 @@ header {
 .nav {
 	display: none;
 	background-color: green;
+	position: absolute;
 }
 
 .nav-check:checked ~ .nav {
 	display: block;
+}
+
+.nav-label {
+	display: inline-block;
 }
 
 .nav-check {
