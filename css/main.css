@@ -41,14 +41,16 @@ ul {
 
 header {
 	background-color: red;
+	position: relative;
 }
 
 .nav {
+	font-family: 'VT323', sans-serif;
 	width: 15em;
 	margin: 35px 0 0 0;
 	display: none;
 	background-color: green;
-	position: inline; /*absolute was the original */
+	position: absolute; /*inline keeps it within the header */
 }
 
 .nav-check:checked ~ .nav {
@@ -58,6 +60,8 @@ header {
 .nav-label {
 	margin: 15px 0 0 5px;
 	display: inline-block;
+	cursor: pointer;
+
 }
 
 .nav-check {
@@ -70,9 +74,8 @@ header {
 	padding: 0;
 }
 
-.logo {
-	height: 100px;
-	width: 150px;
+.nav a:hover {
+	background-color: blue;
 }
 
 .nav-open {
@@ -81,26 +84,59 @@ header {
 	height: 50px;
 }
 
-.nav-closed {
+.nav-close {
+	display: none;
 	padding: 8px;
 	width: 50px;
 	height: 50px;
 }
 
+.nav-check:checked ~ .nav-label .nav-open {
+	display: none;
+}
 
-@media only screen and (min-width: 25em) {
+.nav-check:checked ~ .nav-label .nav-close {
+	display: block;
+}
 
-/*
+.logo {
+	height: 100px;
+	width: 150px;
+}
+
+.foot {
+	background-color: blue;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+	header {
+		float: left;
+		width: 200px;
+		height: 100vh;
+		position: fixed;
+	}
+
+	main {
+		float: right;
+		width: calc(100% - 200px);
+	}
+
+	.nav-label {
+	display: none;
+}
 	.nav {
 		display: block;
 	}
 
 	.nav li {
-		display: inline-block;
+		display: block;
 	}
-	*/
-}
-
-@media only screen and (min-width: 38em) {
 
 }
