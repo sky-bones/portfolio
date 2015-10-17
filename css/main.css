@@ -70,7 +70,6 @@ header {
 }
 
 .nav-check:checked ~ .nav-label {
-	background-color: grey;
 	padding: 0;
 }
 
@@ -104,8 +103,22 @@ header {
 	width: 150px;
 }
 
+.logo-foot {
+	height: 100px;
+	width: 150px;
+}
+
 .foot {
-	background-color: blue;
+	background-color: black;
+}
+
+.img-link {
+	cursor:pointer;
+	height: 335px;
+}
+
+.contact-links {
+	margin: auto;
 }
 
 @media only screen and (min-width: 38em) {
@@ -125,7 +138,7 @@ header {
 
 	main {
 		float: right;
-		width: calc(100% - 200px);
+		width: calc(100% - 210px);
 	}
 
 	.nav-label {
@@ -133,10 +146,19 @@ header {
 }
 	.nav {
 		display: block;
+		background-color: transparent;
 	}
 
 	.nav li {
 		display: block;
+	}
+
+	.logo {
+		display: block;
+	}
+
+	.logo-foot {
+		display: absolute;
 	}
 
 }
