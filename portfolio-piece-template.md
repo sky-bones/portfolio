@@ -5,8 +5,6 @@ titleconcept:concept
 
 concept: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non bibendum tortor. Mauris sollicitudin lorem vitae nisi lacinia fermentum. Mauris dapibus, ligula aliquet ultrices varius, lectus leo vulputate erat, id maximus magna mauris at enim. Nulla leo dui, vehicula a augue sed.
 
-concept2: MAYBE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non bibendum tortor. Mauris sollicitudin lorem vitae nisi lacinia fermentum. Mauris dapibus, ligula aliquet ultrices varius, lectus leo vulputate erat, id maximus magna mauris at enim. Nulla leo dui, vehicula a augue sed.
-
 titlebuilding:Title
 
 imgbuilding:
@@ -33,11 +31,5 @@ tools/programs:
 	- tool one
 	- tool
 	- big tool
-
-tags:
-	- writing
-	- volunteer
-	- red?
-	- conceptual
 
 
