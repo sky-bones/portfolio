@@ -32,6 +32,7 @@ body {
 
 a {
 	text-decoration: none;
+	cursor: pointer;
 }
 
 ul {
@@ -119,6 +120,12 @@ header {
 
 .contact-links {
 	margin: auto;
+}
+
+.btop {
+margin: 15px 0 0 5px;
+display: inline-block;
+cursor: pointer;
 }
 
 @media only screen and (min-width: 38em) {
