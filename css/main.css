@@ -132,6 +132,7 @@ header {
 	cursor: pointer;
 }
 
+
 @media only screen and (min-width: 38em) {
 
 
@@ -150,6 +151,7 @@ header {
 	main {
 		float: right;
 		width: calc(100% - 210px);
+		padding: 3em;
 	}
 
 	.nav-label {
@@ -157,6 +159,7 @@ header {
 }
 	.nav {
 		display: block;
+		margin: 12em 0 0 0;
 		background-color: transparent;
 	}
 
@@ -166,6 +169,10 @@ header {
 
 	.logo {
 		display: block;
+	}
+
+	.process-large {
+		margin: 0 3em 0 1em;
 	}
 
 	.logo-foot {
@@ -179,6 +186,7 @@ header {
 	.logo-foot {
 		display: none;
 	}
+
 
 
 }
