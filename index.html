@@ -45,6 +45,17 @@ layout: default
 
 <div class="grid push">
 
+{% for posts in site.posts %}
+
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+		<a class="img-link" href="{{posts.title}}">
+			<img class="img-flex" src="http://placehold.it/335x150/3f5cff" alt="">
+		</a>
+	</div>
+
+	{% endfor %}
+
+<!--
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
 		<a class="img-link" href="{{site.baseurl}}/portfolio">
 			<img class="img-flex" src="http://placehold.it/335x150/3f5cff" alt="">
@@ -74,12 +85,7 @@ layout: default
 			<img class="img-flex" src="http://placehold.it/335x150/3f5cff" alt="">
 		</a>
 	</div>
-
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-		<a class="img-link" href="{{site.baseurl}}/portfolio">
-			<img class="img-flex" src="http://placehold.it/335x150/3f5cff" alt="">
-		</a>
-	</div>
+-->
 
 </div>
 
