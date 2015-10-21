@@ -45,15 +45,15 @@ layout: default
 
 <div class="grid push">
 
-{% for posts in site.posts %}
+{% for squash in site.posts %}
 
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-		<a class="img-link" href="{{posts.title}}">
+		<a class="img-link" href="{{ squash.url }}">
 			<img class="img-flex" src="http://placehold.it/335x150/3f5cff" alt="">
 		</a>
 	</div>
 
-	{% endfor %}
+{% endfor %}
 
 <!--
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
