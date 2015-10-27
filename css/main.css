@@ -40,10 +40,15 @@ ul {
 	list-style-type: none;
 }
 
+li {
+	list-style-type: none;
+}
+
 header {
 	background-color: red;
 	position: relative;
 }
+
 
 .nav {
 	font-family: 'VT323', sans-serif;
@@ -132,6 +137,13 @@ header {
 	cursor: pointer;
 }
 
+.nex {
+	font-family: 'VT323', sans-serif;
+	width: 100%;
+	margin: 35px 0 0 0;
+	background-color: yellow;
+
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -187,6 +199,9 @@ header {
 		display: none;
 	}
 
+.nex {
+	display: none;
+}
 
 
 }

@@ -22,7 +22,7 @@
 		<ul class="">
 			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a href="#">Next</a></li>
+			<li><a href="{{ post.url }}">Next</a></li>
 			<li><a href="#">Back</a></li>
 		</ul>
 	</nav>
@@ -32,9 +32,13 @@
 	<img class="logo" src="{{site.baseurl}}/img/temp-logo.svg">
 </div>
 
-<div>
-<!-- next / back -->
+<div class="nex unit unit-xs-1-2 ">
+
+		<li><a href="{{ post.url }}">Next</a></li>
+		<li><a href="#">Back</a></li>
+
 </div>
+
 
 </header>
 
@@ -42,7 +46,7 @@
 
 <div class="grid">
 	<div class="unit unit-xs-1 text-center">
-		<h1>Big Brand</h1>
+		<h1></h1>
 		<!-- title -->
 	</div>
 </div>
