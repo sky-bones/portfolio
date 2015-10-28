@@ -42,6 +42,7 @@ ul {
 
 li {
 	list-style-type: none;
+
 }
 
 header {
@@ -53,10 +54,10 @@ header {
 .nav {
 	font-family: 'VT323', sans-serif;
 	width: 15em;
-	margin: 35px 0 0 0;
+	margin: 10px 0 0 0;
 	display: none;
-	background-color: green;
-	position: absolute; /*inline keeps it within the header */
+	background-color: orange;
+	position: inline; /*inline keeps it within the header/ changed from absolute,*/
 }
 
 .nav-check:checked ~ .nav {
@@ -139,7 +140,6 @@ header {
 
 .nex {
 	font-family: 'VT323', sans-serif;
-	width: 100%;
 	background-color: yellow;
 	position: relative;
 }
@@ -150,8 +150,7 @@ header {
 }
 
 .nex-list-sml {
-display: none;
-
+	display: none;
 }
 
 
@@ -181,8 +180,9 @@ display: none;
 }
 	.nav {
 		display: block;
-		margin: 12em 0 0 0;
+		margin: 11em 0 0 0;
 		background-color: transparent;
+		position: absolute;
 	}
 
 	.nav li {
