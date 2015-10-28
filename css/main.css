@@ -148,6 +148,13 @@ header {
 	padding-left: 10px;
 	display: inline;
 }
+
+.nex-list-sml {
+display: none;
+
+}
+
+
 @media only screen and (min-width: 38em) {
 
 
@@ -202,9 +209,13 @@ header {
 		display: none;
 	}
 
-.nex {
+	.nex {
 	display: none;
 }
+
+	.nex-list-sml {
+		display: block;
+	}
 
 
 }
