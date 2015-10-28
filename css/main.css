@@ -140,11 +140,14 @@ header {
 .nex {
 	font-family: 'VT323', sans-serif;
 	width: 100%;
-	margin: 35px 0 0 0;
 	background-color: yellow;
-
+	position: relative;
 }
 
+.nex-list {
+	padding-left: 10px;
+	display: inline;
+}
 @media only screen and (min-width: 38em) {
 
 
