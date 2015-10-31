@@ -33,8 +33,8 @@
 </div>
 
 <div class="nex unit unit-xs-1-2 unit-s-1-2 unit-m-1-2">
-    <a class="nex-list" href="{{ site.baseurl page.previous.url }}">Back</a>
-		<a class="nex-list" href="{{ page.next.url }}">Next</a>
+    <a class="nex-list" href="{{ page.next.url }}">Back</a>
+		<a class="nex-list" href="{{ page.previous.url }}">Next</a>
 </div>
 
 
@@ -54,7 +54,7 @@
 		<h2>Concept</h2>
 	</div>
 		<div class="unit unit-xs-1 gutter">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium maximus purus, vel pulvinar ante ultrices nec. Ut nisl metus, malesuada et augue ut, faucibus luctus metus. Donec interdum vehicula quam eu porta. Nullam tortor dolor, viverra nec ante ac, accumsan consequat risus. Fusce aliquet vel nisi non interdum. Ut dolor sem, semper vitae dui in, volutpat cursus sapien. Mauris ut ante imperdiet, tincidunt enim ut, gravida nunc.</p>
+			 <p> {{ post.concept }} </p>
 <!--concept -->
 		</div>
 	</div>
@@ -65,8 +65,8 @@
 </main>
 
 <footer class="grid foot">
-	<div class="unit unit-xs-1-2 unit-s-1-2 unit-m-2-3 unit-l-2-3 ">
-		<a class="btop giga gutter-1-2" href="#top">Top</a>
+	<div class="unit unit-xs-1-2 unit-s-1-2 unit-m-2-3 unit-l-2-3">
+		<a href="#top"> <img class="gutter-1-2 bck2top" src="{{site.baseurl}}/icons/back-to-top.svg" alt="back to top"></a>
 	</div>
 	<div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-3 unit-l-1-3 text-right">
 		<img class="logo-foot" src="{{site.baseurl}}/img/temp-logo.svg">

@@ -36,7 +36,7 @@ a {
 }
 
 ul {
-	padding: 10px;
+	padding: 10px 0 10px 20px;
 	list-style-type: none;
 }
 
@@ -53,6 +53,7 @@ header {
 
 .nav {
 	font-family: 'VT323', sans-serif;
+	font-size: 1.1250rem;
 	width: 15em;
 	margin: 10px 0 0 0;
 	display: none;
@@ -65,7 +66,7 @@ header {
 }
 
 .nav-label {
-	margin: 15px 0 0 5px;
+	margin: 20px 0 0 10px;
 	display: inline-block;
 	cursor: pointer;
 
@@ -119,8 +120,17 @@ header {
 	width: 150px;
 }
 
+.bck2top {
+	margin: 15px 0 0 0;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	display: inline-block;
+
+}
+
 .foot {
-	background-color: black;
+	background-color: red;
 }
 
 .img-link {
@@ -132,11 +142,6 @@ header {
 	margin: auto;
 }
 
-.btop {
-	margin: 15px 0 0 5px;
-	display: inline-block;
-	cursor: pointer;
-}
 
 .nex {
 	font-family: 'VT323', sans-serif;
