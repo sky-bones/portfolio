@@ -145,16 +145,18 @@ header {
 
 .nex {
 	font-family: 'VT323', sans-serif;
+
 	background-color: yellow;
 	position: relative;
 }
 
 .nex-list {
+	height: 2em;
 	padding-left: 10px;
 	display: inline;
 }
 
-.nex-list-sml {
+.nex-list-nav {
 	display: none;
 }
 
@@ -185,7 +187,7 @@ header {
 }
 	.nav {
 		display: block;
-		margin: 11em 0 0 0;
+		margin: 9.5em 0 0 0;
 		background-color: transparent;
 		position: absolute;
 	}
@@ -218,7 +220,7 @@ header {
 	display: none;
 }
 
-	.nex-list-sml {
+	.nex-list-nav {
 		display: block;
 	}
 
