@@ -36,13 +36,13 @@ a {
 }
 
 ul {
-	padding: 10px 0 10px 20px;
 	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 li {
 	list-style-type: none;
-
 }
 
 header {
@@ -54,11 +54,11 @@ header {
 .nav {
 	font-family: 'VT323', sans-serif;
 	font-size: 1.1250rem;
-	width: 15em;
+	width: 10em;
 	margin: 10px 0 0 0;
 	display: none;
 	background-color: orange;
-	position: inline; /*inline keeps it within the header/ changed from absolute,*/
+	position: inline-block; /*inline keeps it within the header/ changed from absolute,*/
 }
 
 .nav-check:checked ~ .nav {
@@ -69,7 +69,10 @@ header {
 	margin: 20px 0 0 10px;
 	display: inline-block;
 	cursor: pointer;
+}
 
+.nav-pad {
+	padding: 10px 0 10px 20px;
 }
 
 .nav-check {
@@ -82,7 +85,7 @@ header {
 }
 
 .nav a:hover {
-	background-color: blue;
+	background-color: gray;
 }
 
 .nav-open {
@@ -126,7 +129,6 @@ header {
 	height: 50px;
 	cursor: pointer;
 	display: inline-block;
-
 }
 
 .foot {
@@ -134,7 +136,7 @@ header {
 }
 
 .img-link {
-	cursor:pointer;
+	cursor: pointer;
 	height: 335px;
 }
 
@@ -145,15 +147,22 @@ header {
 
 .nex {
 	font-family: 'VT323', sans-serif;
-
+	height: 3em;
 	background-color: yellow;
-	position: relative;
 }
 
-.nex-list {
-	height: 2em;
-	padding-left: 10px;
-	display: inline;
+
+.next {
+	position: absolute;
+	width: 2em;
+	height: 3em;
+	background-color: orange;
+}
+
+.back {
+	background-color: gray;
+	position: absolute;
+	width: 3em;
 }
 
 .nex-list-nav {
@@ -221,6 +230,7 @@ header {
 }
 
 	.nex-list-nav {
+
 		display: block;
 	}
 

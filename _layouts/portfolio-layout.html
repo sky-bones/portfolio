@@ -19,10 +19,10 @@
 			<img class="gutter-2 nav-close" src="{{site.baseurl}}/icons/nav-close.svg" alt="Close Navigation">
 		</label>
 	<nav class="nav">
-		<ul class="">
+		<ul class="nav-pad">
 			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
 			<li><a href="{{site.baseurl}}/index.html">Contact</a></li>
-			<li> <a class="nex-list-nav" href="{{ page.next.url }}">Next</a></li>
+			<li><a class="nex-list-nav" href="{{ page.next.url }}">Next</a></li>
 			<li><a class="nex-list-nav" href="{{ page.previous.url }}">Back</a></li>
 		</ul>
 	</nav>
@@ -32,11 +32,12 @@
 	<img class="logo" src="{{site.baseurl}}/img/temp-logo.svg">
 </div>
 
-<div class="nex unit unit-xs-1 unit-s-1 unit-m-1">
-    <a class="nex-list" href="{{ page.next.url }}">Back</a>
-		<a class="nex-list" href="{{ page.previous.url }}">Next</a>
-</div>
-
+<nav class="unit unit-xs-1 nex">
+	<ul class="">
+		<li><a class="back unit-xs-1-2" href="{{ page.previous.url }}">Back</a></li>
+		<li><a class="next unit-push-xs-4-4 unit-xs-1-2" href="{{ page.next.url }}">Next</a></li>
+	</ul>
+</nav>
 
 </header>
 
