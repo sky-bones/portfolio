@@ -193,7 +193,7 @@ header {
 	}
 
 	.nav-label {
-	display: none;
+		display: none;
 }
 	.nav {
 		display: block;
@@ -208,6 +208,7 @@ header {
 
 	.logo {
 		display: block;
+		z-index: 1000;
 	}
 
 	.process-large {
