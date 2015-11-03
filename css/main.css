@@ -23,8 +23,8 @@ html {
 .img-flex {
 	display: block;
 	width: 100%;
-
 }
+
 
 body {
 	margin: 0;
@@ -145,13 +145,11 @@ header {
 	margin: auto;
 }
 
-
 .nex {
 	font-family: 'VT323', sans-serif;
 	height: 3em;
 	background-color: yellow;
 }
-
 
 .next {
 	position: absolute;
