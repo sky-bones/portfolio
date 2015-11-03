@@ -6,19 +6,22 @@ layout: default
 
 	<nav class="nav">
 		<ul class="nav-pad">
-			<li><a class="nex-list-nav" href="{{site.baseurl}}{{ page.next.url }}">Next</a></li>
-			<li><a class="nex-list-nav" href="{{site.baseurl}}{{ page.previous.url }}">Back</a></li>
+			<li><a class="nex-list-nav" href="{{site.baseurl}}{{page.next.url}}">Next</a></li>
+			<li><a class="nex-list-nav" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
 		</ul>
 	</nav>
 
 
 <nav class="unit unit-xs-1 nex">
 	<ul class="">
-		<li><a class="back unit-xs-1-2" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
-		<li><a class="next unit-push-xs-4-4 unit-xs-1-2" href="{{site.baseurl}}{{page.next.url}}">Next</a></li>
+		{% if page.previous %}
+			<li><a class="back unit-xs-1-2" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
+		{% endif %}
+		{% if page.next %}
+			<li><a class="next unit-push-xs-4-4 unit-xs-1-2" href="{{site.baseurl}}{{page.next.url}}">Next</a></li>
+		{% endif %}
 	</ul>
 </nav>
-
 
 <main>
 
@@ -34,7 +37,7 @@ layout: default
 		<h2>Concept</h2>
 	</div>
 		<div class="unit unit-xs-1 gutter">
-			 <p> {{ post.concept }} </p>
+			 <p> {{ page.concept }} </p>
 <!--concept -->
 		</div>
 	</div>

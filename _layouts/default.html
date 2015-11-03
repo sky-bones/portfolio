@@ -25,14 +25,14 @@
 		</label>
 	<nav class="nav-pad nav">
 		<ul>
-		{% if page.url == {{site.baseurl}}/post %}
-		<li><a class="" href="{{ page.url }}">Work</a></li>
+		{% if page.layout == "portfolio-layout" %}
+		<li><a class="" href="{{site.baseurl}}/">Home</a></li>
 		{% endif %}
 
 		<!-- im trying to have the index page have the work link and all other pages have the home link. im not really sure how to format. right now it's taking up the same space at the back/next links-->
 
-		{% if page.url == {{site.baseurl}}/index.html %}
-			<li><a class="" href="{{ page.url }}">Work</a></li>
+		{% if page.url == "/" %}
+			<li><a class="" href="{{ site.baseurl }}/2015/">Work</a></li>
 		{% endif %}
 
 			<li><a class="" href="{{ site.baseurl }}/contact/">Contact</a></li>
