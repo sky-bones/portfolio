@@ -1,0 +1,3 @@
+Coded and designed by Elizabeth Nichols
+
+Technology: Github, Sublime, Jekyll were used to create this website.

@@ -1,0 +1,3 @@
+Sitemap: https://enichols.ca/sitemap.xml
+
+User-Agent: *
