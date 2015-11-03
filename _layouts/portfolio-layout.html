@@ -7,11 +7,11 @@ layout: default
 	<nav class="nav">
 		<ul class="nav-pad">
 			{% if page.next %}
-				<li><a class="next unit-push-xs-4-4 unit-xs-1-2" href="{{site.baseurl}}{{page.next.url}}">Next</a></li>
+				<li><a class="nex-list-nav" href="{{site.baseurl}}{{page.next.url}}">Next</a></li>
 			{% endif %}
 
 			{% if page.previous %}
-				<li><a class="back unit-xs-1-2" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
+				<li><a class="nex-list-nav" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
 			{% endif %}
 		</ul>
 	</nav>
@@ -33,7 +33,7 @@ layout: default
 
 <div class="grid">
 	<div class="unit unit-xs-1 text-center">
-		<h1></h1>
+		<h1>{{ page.title}}</h1>
 		<!-- title -->
 	</div>
 </div>
