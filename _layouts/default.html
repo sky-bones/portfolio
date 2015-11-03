@@ -25,17 +25,18 @@
 		</label>
 	<nav class="nav-pad nav">
 		<ul>
-		{% if page.layout == "portfolio-layout" %}
-		<li><a class="" href="{{site.baseurl}}/">Home</a></li>
-		{% endif %}
+			<li><a class="" href="{{site.baseurl}}/">Home</a></li>
+			<li class=""><a class="" href="{{ site.baseurl }}/2015/10/20/accursed">Work</a></li>
+			<li class=""><a class="" href="{{ site.baseurl }}/contact/">Contact</a></li>
 
-		<!-- im trying to have the index page have the work link and all other pages have the home link. im not really sure how to format. right now it's taking up the same space at the back/next links-->
+			{% if page.previous %}
+				<li class="next-prev-large"><a href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
+			{% endif %}
 
-		{% if page.url == "/" %}
-			<li><a class="" href="{{ site.baseurl }}/2015/10/20/accursed">Work</a></li>
-		{% endif %}
+			{% if page.next %}
+				<li class="next-prev-large"><a><a href="{{site.baseurl}}{{page.next.url}}">Next</a></li>
+			{% endif %}
 
-			<li><a class="" href="{{ site.baseurl }}/contact/">Contact</a></li>
 		</ul>
 	</nav>
 </div>

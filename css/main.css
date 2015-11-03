@@ -152,19 +152,22 @@ header {
 }
 
 .next {
-	position: absolute;
-	width: 2em;
-	height: 3em;
 	background-color: orange;
+	display: block;
+	text-align: right
 }
 
 .back {
 	background-color: gray;
-	position: absolute;
-	width: 3em;
+	display: block;
+
 }
 
 .nex-list-nav {
+	display: none;
+}
+
+.next-prev-large {
 	display: none;
 }
 
@@ -233,5 +236,8 @@ header {
 		display: block;
 	}
 
+.next-prev-large {
+	display: none;
+}
 
 }
