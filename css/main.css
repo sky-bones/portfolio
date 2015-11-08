@@ -47,18 +47,17 @@ li {
 }
 
 header {
-	background-color: red;
+	background-color: #ED0241;
 	position: relative;
 }
 
 
 .nav {
 	font-family: 'VT323', sans-serif;
-	font-size: 1.1250rem;
+  font-size: 1.2656rem;
 	width: 10em;
 	margin: 10px 0 0 0;
 	display: none;
-	background-color: orange;
 	position: inline-block; /*inline keeps it within the header/ changed from absolute,*/
 }
 
@@ -86,7 +85,8 @@ header {
 }
 
 .nav a:hover {
-	background-color: gray;
+	padding: 3px;
+	background-color: white;
 }
 
 .nav-open {
@@ -116,12 +116,12 @@ header {
 
 .logo {
 	height: 100px;
-	width: 150px;
+	width: 145px;
 }
 
 .logo-foot {
 	height: 100px;
-	width: 150px;
+	width: 145px;
 }
 
 .bck2top {
@@ -133,7 +133,7 @@ header {
 }
 
 .foot {
-	background-color: red;
+	background-color: #ED0241;
 }
 
 .img-link {
@@ -147,18 +147,21 @@ header {
 
 .nex {
 	font-family: 'VT323', sans-serif;
-	height: 3em;
-	background-color: yellow;
+  font-size: 1.2656rem;
+	height: 2.75em;
+	background-color: #EAB000;
 }
 
 .next {
-	background-color: orange;
+	padding: 12px 16px 12px 12px;
+	background-color: #EAB000;
 	display: block;
 	text-align: right
 }
 
 .back {
-	background-color: gray;
+	padding: 12px 12px 12px 16px;
+	background-color: #EAB000;
 	display: block;
 
 }
@@ -198,7 +201,8 @@ header {
 }
 	.nav {
 		display: block;
-		margin: 9.5em 0 0 0;
+		font-size: 1.1250rem;
+		margin: 8em 0 0 0;
 		background-color: transparent;
 		position: absolute;
 	}
