@@ -12,10 +12,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Halant:500|VT323' rel='stylesheet' type='text/css'>
 </head>
 
-<!-- <a href="{{site.baseurl}}/plant-eaters/" {% if page.url == '/plant-eaters/' %} class="current" {% endif %}>Plant eaters</a>
-
-{% if page.url == '/contact/' %} class="current" {% endif %}
-{% if page.url == '///' %} class="current" {% endif %} -->
 
 <body>
 
@@ -29,9 +25,9 @@
 		</label>
 	<nav class="nav-pad nav">
 		<ul>
-			<li><a class="" href="{{site.baseurl}}/" {% if page.url == '///' %} class="current" {% endif %}>Home</a></li>
-			<li><a href="{{ site.baseurl }}/2015/10/20/accursed">Work</a></li>
-			<li><a href="{{ site.baseurl }}/contact/" {% if page.url == '{{site.baseurl}}/contact/' %} class="current" {% endif %} >Contact</a></li>
+			<li><a href="{{site.baseurl}}/" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
+			<li><a href="{{ site.baseurl }}/2015/10/20/accursed">Portfolio</a></li>
+			<li><a href="{{ site.baseurl }}/contact/" {% if page.url == '/contact/' %} class="current" {% endif %} >Contact</a></li>
 
 			{% if page.previous %}
 				<li class="next-prev-large"><a href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
