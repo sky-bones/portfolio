@@ -136,7 +136,6 @@ header {
 
 .img-link {
 	cursor: pointer;
-	height: 335px;
 }
 
 .contact-links {
@@ -171,54 +170,60 @@ header {
 	display: none;
 }
 
-/* - -- --- -- - -
 
 .ptf-img-lnk {
-    position: relative;
+	position: relative;
+	display: block;
 }
 
-.ptf-img-lnk  img:hover {
-	outline: 3px solid #3f5cff;
+.ptf-img-lnk:hover {
+	z-index: 1000;
 }
 
-.details {
+
+.overlay {
     position: absolute;
     opacity: 0;
-    left: 45px;
-    top: 45px;
-    right: 45px;
-    bottom: 45px;
-    background-color: white;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: hsla(155, 77%, 96%, 0.80);
     border: 0;
+
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: space-around;
+    align-content: space-around;
+
+    -webkit-align-items: left;
+    -ms-flex-align: left;
+    align-items: left;
 }
 
-.details p {
-    margin-bottom: 0;
+.overlay h1 {
+	margin: 25px 0 0 15px ;
 }
 
-.ptf-img-lnk:hover .details {
+.ptf-img-lnk:hover .overlay {
     opacity: 1;
 }
 
-*/
 @media only screen and (min-width: 38em) {
 }
 
