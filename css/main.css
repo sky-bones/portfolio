@@ -180,6 +180,9 @@ header {
 	z-index: 1000;
 }
 
+.title-align {
+	text-align: center;
+}
 
 .overlay {
     position: absolute;
@@ -288,6 +291,10 @@ header {
 
 .next-prev-large {
 	display: none;
+}
+
+.title-align {
+	text-align: left;
 }
 
 }
