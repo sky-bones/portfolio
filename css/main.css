@@ -51,7 +51,6 @@ header {
 }
 
 .nav {
-	font-family: 'VT323', sans-serif;
   font-size: 1.2656rem;
 	width: 10em;
 	margin: 10px 0 0 0;
@@ -143,7 +142,6 @@ header {
 }
 
 .nex {
-	font-family: 'VT323', sans-serif;
   font-size: 1.2656rem;
 	height: 2.75em;
 	background-color: #EAB000;
@@ -191,7 +189,7 @@ header {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: hsla(155, 77%, 96%, 0.80);
+    background-color: hsla(0, 0%, 0%, 0.80);
     border: 0;
 
     display: -ms-flexbox;
@@ -216,15 +214,16 @@ header {
 
     -webkit-align-items: left;
     -ms-flex-align: left;
-    align-items: left;
+    align-items: right;
 }
 
 .overlay h1 {
-	margin: 25px 0 0 15px ;
+	margin: 25px 0 0 20px ;
+	color: white;
 }
 
 .ptf-img-lnk:hover .overlay {
-    opacity: 1;
+	opacity: 1;
 }
 
 @media only screen and (min-width: 38em) {
