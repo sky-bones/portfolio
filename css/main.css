@@ -51,7 +51,7 @@ header {
 }
 
 .nav {
-  font-size: 1.2656rem;
+  font-size: 1.1250rem;
 	width: 10em;
 	margin: 10px 0 0 0;
 	display: none;
@@ -248,8 +248,8 @@ header {
 		display: none;
 }
 	.nav {
+		font-size: 1.0000rem;
 		display: block;
-		font-size: 1.1250rem;
 		margin: 8em 0 0 0;
 		background-color: transparent;
 		position: absolute;
