@@ -48,6 +48,7 @@ li {
 header {
 	background-color: #ED0241;
 	position: relative;
+	background-image: url("../img/pattern.png");
 }
 
 .nav {
@@ -56,6 +57,7 @@ header {
 	margin: 10px 0 0 0;
 	display: none;
 	position: inline-block; /*inline keeps it within the header/ changed from absolute,*/
+	background-color: white;
 }
 
 .nav-check:checked ~ .nav {
@@ -113,7 +115,8 @@ header {
 
 .logo {
 	height: 100px;
-	width: 145px;
+	width: 130px;
+	margin-left: 10px;
 }
 
 .logo-foot {
@@ -251,7 +254,7 @@ header {
 		font-size: 1.0000rem;
 		display: block;
 		margin: 8em 0 0 0;
-		background-color: transparent;
+		background-color: white;
 		position: absolute;
 	}
 
@@ -281,23 +284,23 @@ header {
 	}
 
 	.nex {
-	display: none;
+		display: none;
 }
 
 	.nex-list-nav {
 		display: block;
 	}
 
-.next-prev-large {
-	display: none;
+	.next-prev-large {
+		display: none;
 }
 
-.title-align {
-	text-align: left;
+	.title-align {
+		text-align: left;
 }
 
-.contact-links {
-	margin: 0;
+	.contact-links {
+		margin: 0;
 }
 
 }
