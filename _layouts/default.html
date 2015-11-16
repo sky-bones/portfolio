@@ -28,13 +28,6 @@
 			<li><a href="{{ site.baseurl }}/2015/10/20/accursed">Portfolio</a></li>
 			<li><a href="{{ site.baseurl }}/contact/" {% if page.url == '/contact/' %} class="current" {% endif %} >Contact</a></li>
 
-			{% if page.previous %}
-				<li class="next-prev-large"><a href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
-			{% endif %}
-
-			{% if page.next %}
-				<li class="next-prev-large"><a><a href="{{site.baseurl}}{{page.next.url}}">Next</a></li>
-			{% endif %}
 
 		</ul>
 	</nav>
