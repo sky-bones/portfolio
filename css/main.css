@@ -284,7 +284,9 @@ header {
 	}
 
 	.nex {
-		display: none;
+		float: right;
+		width: calc(100% - 210px);
+		display: block;
 }
 
 	.nex-list-nav {
@@ -292,7 +294,7 @@ header {
 	}
 
 	.next-prev-large {
-		display: none;
+		display: block;
 }
 
 	.title-align {
