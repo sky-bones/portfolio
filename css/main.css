@@ -34,6 +34,7 @@ body {
 a {
 	text-decoration: none;
 	cursor: pointer;
+	color: black;
 }
 
 a:focus {
@@ -64,19 +65,21 @@ li {
 }
 
 header {
-	background-color: #ED0241;
+	background-color: white;
 	position: relative;
 	background-image: url("../img/pattern.png");
 }
 
 .nav {
-  font-size: 1.1250rem;
+
+	font-size: 1.1250rem;
 	width: 10em;
 	margin: 10px 0 0 0;
 	display: none;
 	position: inline-block; /*inline keeps it within the header/ changed from absolute,*/
 	background-color: white;
 }
+
 
 .nav-check:checked ~ .nav {
 	display: block;
@@ -94,7 +97,7 @@ header {
 
 .nav-check {
 	position: absolute;
-	top: -3em;
+	top: -4em;
 }
 
 .nav-check:checked ~ .nav-label {
@@ -102,8 +105,8 @@ header {
 }
 
 .nav a:hover {
-	padding: 3px;
-	background-color: white;
+	padding: 4px;
+	background-color: #ED0241;
 }
 
 .nav-open {
@@ -128,7 +131,7 @@ header {
 }
 
 .current {
-	color: gray;
+	color: red;
 }
 
 .logo {
