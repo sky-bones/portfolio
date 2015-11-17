@@ -12,9 +12,16 @@
 </head>
 
 
+<div class="skip-links">
+<a  href="#banner">Jump to header</a>
+<a href="#navigation">Jump to navigation</a>
+<a href="#main">Jump to main content</a>
+<a  href="#footer" alt="on large screens, there is no footer">Jump to footer</a>
+</div>
+
 <body>
 
-<header class="head grid" id="top" role="banner">
+<header class="head grid" id="banner" role="banner">
 <!-- logo stuff (sider really) -->
 <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-2-3 unit-l-1">
 	<input type="checkbox" class="nav-check" id="nav-check">
@@ -22,12 +29,11 @@
 			<img class="nav-open" src="{{site.baseurl}}/icons/nav-open.svg" alt="Open Navigation">
 			<img class="nav-close" src="{{site.baseurl}}/icons/nav-close.svg" alt="Close Navigation">
 		</label>
-	<nav class="nav-pad nav" role="navigation">
+	<nav class="nav-pad nav" id="navigation" role="navigation">
 		<ul>
 			<li><a href="{{site.baseurl}}/" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
 			<li><a href="{{ site.baseurl }}/2015/10/20/accursed">Portfolio</a></li>
 			<li><a href="{{ site.baseurl }}/contact/" {% if page.url == '/contact/' %} class="current" {% endif %} >Contact</a></li>
-
 
 		</ul>
 	</nav>
@@ -42,7 +48,7 @@
 {{content}}
 
 
-<footer class="grid foot" role="footer">
+<footer class="grid foot" id="footer" role="footer">
 	<div class="unit unit-xs-1-2 unit-s-1-2 unit-m-2-3 unit-l-2-3">
 		<a href="#top"> <img class="gutter-1-2 bck2top" src="{{site.baseurl}}/icons/back-to-top.svg" alt="back to top"></a>
 	</div>

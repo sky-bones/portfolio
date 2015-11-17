@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-<nav class="nex" role="navigation">
+
+<div class="skip-links">
+<a href="#nav2">Jump to next/back navigation</a>
+</div>
+
+<nav class="nex" id="nav2" role="navigation-next-back">
 	<ul class="grid">
 		{% if page.previous %}
 			<li class="unit unit-xs-1-2"><a class="back" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
@@ -13,7 +18,7 @@ layout: default
 	</ul>
 </nav>
 
-<main role="main">
+<main id="main" role="main">
 
 <div class="grid">
 	<div class="unit unit-xs-1 title-align pad-t">
