@@ -47,6 +47,10 @@ ul {
 	margin: 0;
 }
 
+h2 {
+	margin-bottom: 0.25em;
+}
+
 .skip-links {
 	color: black;
 }
@@ -71,7 +75,6 @@ header {
 }
 
 .nav {
-
 	font-size: 1.1250rem;
 	width: 10em;
 	margin: 10px 0 0 0;
@@ -250,6 +253,8 @@ header {
 	opacity: 1;
 }
 
+
+
 @media only screen and (min-width: 38em) {
 }
 
@@ -313,7 +318,6 @@ header {
 	.nex-list-nav {
 		display: block;
 	}
-
 
 	.title-align {
 		text-align: left;
