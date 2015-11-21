@@ -268,7 +268,10 @@ header {
 	opacity: 1;
 }
 
-
+.cc {
+	width: 100px;
+	margin: 10px;
+}
 
 @media only screen and (min-width: 38em) {
 }
