@@ -21,18 +21,18 @@ html {
 }
 
 @font-face {
-    font-family: 'Halant';
-    src: url('fonts/halant-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Halant';
+	src: url('fonts/halant-bold-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
 }
 
 
 @font-face {
-    font-family: 'Halant';
-    src: url('fonts/halant-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Halant';
+	src: url('fonts/halant-medium-webfont.woff') format('woff');
+	font-weight: medium;
+	font-style: normal;
 }
 
 
