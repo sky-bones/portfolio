@@ -22,7 +22,7 @@ html {
 
 @font-face {
     font-family: 'Halant';
-    src: url('../fonts/halant-bold-webfont.woff') format('woff');
+    src: url('fonts/halant-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -30,7 +30,7 @@ html {
 
 @font-face {
     font-family: 'Halant';
-    src: url('halant-medium-webfont.woff') format('woff');
+    src: url('fonts/halant-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
