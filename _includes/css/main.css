@@ -56,6 +56,10 @@ a:focus {
   outline: 2px solid #000;
 }
 
+a:hover {
+	color: blue;
+}
+
 ul {
 	list-style-type: none;
 	padding: 0;
@@ -111,6 +115,7 @@ header {
 
 .nav-pad {
 	padding: 10px 0 10px 20px;
+	width: 100%;
 }
 
 .nav-check {
