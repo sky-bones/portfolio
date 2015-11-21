@@ -31,7 +31,7 @@ html {
 @font-face {
 	font-family: 'Halant';
 	src: url('fonts/halant-medium-webfont.woff') format('woff');
-	font-weight: medium;
+	font-weight: normal;
 	font-style: normal;
 }
 
@@ -227,10 +227,10 @@ header {
 .overlay {
     position: absolute;
     opacity: 0;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
     background-color: hsla(0, 0%, 0%, 0.80);
     border: 0;
 
