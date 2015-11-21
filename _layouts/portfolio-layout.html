@@ -9,7 +9,8 @@ layout: default
 <nav class="nex" id="nav2" role="navigation-next-back">
 	<ul class="grid">
 		{% if page.previous %}
-			<li class="unit unit-xs-1-2"><a class="back" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
+			<li class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2">
+			<a class="back" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
 		{% endif %}
 
 		{% if page.next %}

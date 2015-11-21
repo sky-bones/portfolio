@@ -328,8 +328,7 @@ header {
 	}
 
 	.nex {
-		float: right;
-		width: calc(100% - 210px);
+		width: 100%;
 		display: block;
 }
 
