@@ -282,6 +282,10 @@ header {
 	margin: 10px;
 }
 
+.portrait {
+	padding: 10px;
+	border: 5px solid black;
+}
 
 
 @media only screen and (min-width: 38em) {
