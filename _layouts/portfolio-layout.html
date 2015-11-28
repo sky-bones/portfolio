@@ -27,22 +27,31 @@ layout: default
 </div>
 
 <div class="grid">
-	<div class="unit unit-xs-1 title-align">
+	<div class="unit unit-xs-1 title-align-meduim">
 		<h2>Concept</h2>
 	</div>
 
-		<div class="unit unit-xs-1 gutter">
-			 <p> {{ page.concept }} </p>
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+			<p> {{ page.concept1 }} </p>
+		</div>
+
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+		<p> {{ page.concept2 }} </p>
 		</div>
 	</div>
 
 <div class="grid push-1-2">
-	<div class="unit unit-xs-1 title-align">
+	<div class="unit unit-xs-1 title-align-meduim">
 		<h2>Process</h2>
 	</div>
 
-	<div class="unit unit-xs-1 unit-s-1 gutter">
-		<p> {{ page.process }} </p>
+
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+		<p> {{ page.process1 }} </p>
+	</div>
+
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+		<p> {{ page.process2 }} </p>
 	</div>
 
 {% for img in page.processimages %}
@@ -55,12 +64,16 @@ layout: default
 
 
 <div class="grid">
-	<div class="unit unit-xs-1 title-align">
+	<div class="unit unit-xs-1 title-align-meduim">
 		<h2>Final</h2>
 	</div>
 
-	<div class="unit unit-xs-1 gutter">
-		<p> {{ page.finalwords }}</p>
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+		<p> {{ page.finalwords1 }}</p>
+	</div>
+
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+		<p> {{ page.finalwords2 }}</p>
 	</div>
 
 {% for img in page.finalimages %}
