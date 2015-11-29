@@ -57,7 +57,7 @@ a:focus {
 }
 
 a:hover {
-	color: blue;
+	color: #ED0241;
 }
 
 ul {
@@ -128,8 +128,9 @@ header {
 }
 
 .nav a:hover {
-	padding: 4px;
-	background-color: #ED0241;
+	padding: 3px;
+	color: white;
+	background-color: black;
 }
 
 .nav-open {
@@ -154,7 +155,7 @@ header {
 }
 
 .current {
-	color: red;
+	color: #DD002B;
 }
 
 .logo {
@@ -177,7 +178,7 @@ header {
 }
 
 .foot {
-	background-color: #ED0241;
+	background-color: #EAB000;
 }
 
 .img-link {
@@ -207,6 +208,15 @@ header {
 	display: block;
 }
 
+.nextback-text {
+	color: #1D567B;
+	font-weight: bold;
+}
+
+.nextback-text:hover {
+	color: black;
+}
+
 .nex-list-nav {
 	display: none;
 }
@@ -214,7 +224,6 @@ header {
 .next-prev-large {
 	display: none;
 }
-
 
 .ptf-img-lnk {
 	position: relative;
@@ -279,12 +288,11 @@ header {
 
 .cc {
 	width: 100px;
-	margin: 10px;
+	margin: 10px 5px 5px 10px;
 }
 
 .portrait {
-	padding: 10px;
-	border: 5px solid black;
+
 }
 
 

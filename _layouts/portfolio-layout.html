@@ -3,18 +3,18 @@ layout: default
 ---
 <meta name="description" content="">
 <div class="skip-links">
-<a href="#nav2">Jump to next/back navigation</a>
+	<a href="#nav2">Jump to next/back navigation</a>
 </div>
 
 <nav class="nex" id="nav2" role="navigation-next-back">
 	<ul class="grid">
 		{% if page.previous %}
 			<li class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2">
-			<a class="back" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
+			<a class="back nextback-text" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
 		{% endif %}
 
 		{% if page.next %}
-			<li class="unit unit-xs-1-2 {% if page.previous == nil %}unit-offset-xs-1-2{% endif %}"><a class="next" href="{{site.baseurl}}{{page.next.url}}">Next</a></li>
+			<li class="unit unit-xs-1-2 {% if page.previous == nil %}unit-offset-xs-1-2{% endif %}"><a class="next nextback-text" href="{{site.baseurl}}{{page.next.url}}">Next</a></li>
 		{% endif %}
 	</ul>
 </nav>
