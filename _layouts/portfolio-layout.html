@@ -72,8 +72,14 @@ layout: default
 		<p> {{ page.finalwords1 }}</p>
 	</div>
 
-		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
-		<p> {{ page.finalwords2 }}</p>
+<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter">
+<p>
+{% if page.finalwords2link %}
+		<a href="{{ page.finalwords2link }}" >Read Salt</a>
+	{% else %}
+		{{ page.finalwords2 }}
+	{% endif %}
+	</p>
 	</div>
 
 {% for img in page.finalimages %}
