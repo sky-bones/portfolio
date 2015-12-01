@@ -166,22 +166,21 @@ header {
 	margin-left: 10px;
 }
 
-.logo-foot {
-	height: 100px;
-	width: 145px;
-}
 
 .bck2top {
-	margin: 15px 0 0 0;
+	margin-left: 8px;
+	padding: 10px;
 	width: 50px;
 	height: 50px;
 	cursor: pointer;
 	display: inline-block;
 }
 
-.foot {
-	background-color: #EAB000;
+.cc {
+	margin: 0;
+	padding-right: 20px;
 }
+
 
 .img-link {
 	cursor: pointer;
@@ -288,10 +287,7 @@ header {
 	opacity: 1;
 }
 
-.cc {
-	width: 100px;
-	margin: 10px 5px 5px 10px;
-}
+
 
 .portrait {
 
@@ -346,12 +342,8 @@ header {
 		margin: 0 3em 0 1em;
 	}
 
-	.logo-foot {
-		display: absolute;
-	}
-
-	.foot {
-		background-color: transparent;
+	.cc {
+		display: none;
 	}
 
 	.logo-foot {
