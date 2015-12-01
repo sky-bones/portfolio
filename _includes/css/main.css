@@ -134,13 +134,15 @@ header {
 }
 
 .nav-open {
-	padding: 8px;
+	margin-left: 8px;
+	padding: 10px;
 	width: 50px;
 	height: 50px;
 }
 
 .nav-close {
 	display: none;
+	margin-left: 7px;
 	padding: 8px;
 	width: 50px;
 	height: 50px;
@@ -192,24 +194,24 @@ header {
 .nex {
   font-size: 1.2656rem;
 	height: 2.75em;
-	background-color: #EAB000;
+	background-color: #E90034;
 }
 
 .next {
 	padding: 12px 16px 12px 12px;
-	background-color: #EAB000;
+	background-color: #E90034;
 	display: block;
-	text-align: right
+	text-align: right;
 }
 
 .back {
 	padding: 12px 12px 12px 16px;
-	background-color: #EAB000;
+	background-color: #E90034;
 	display: block;
 }
 
 .nextback-text {
-	color: #1D567B;
+	color: white;
 	font-weight: bold;
 }
 
