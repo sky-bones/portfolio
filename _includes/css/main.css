@@ -177,7 +177,7 @@ header {
 }
 
 .cc {
-	margin: 0;
+	margin-top: 10px;
 	padding-right: 20px;
 }
 
@@ -362,5 +362,37 @@ header {
 	.contact-links {
 		margin: 0;
 }
+
+}
+
+@media only print {
+
+	header {
+		display: none;
+	}
+
+	.nav
+	.nav-open
+	.nav-close {
+		display: none;
+	}
+
+	.bck2top
+	.cc {
+		display: none;
+}
+
+	.footer {
+		display: none;
+	}
+
+	.nex
+	.next
+	.back
+	.nextback-text
+	{
+		display: none;
+}
+
 
 }
