@@ -43,7 +43,25 @@
 	<nav class="nav-pad nav" id="navigation" role="navigation">
 		<ul>
 			<li><a href="{{site.baseurl}}/" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
-			<li><a href="{{ site.baseurl }}/2015/10/20/accursed/">Portfolio</a></li>
+
+			<li><a href="{{site.baseurl}}/2015/10/20/accursed/" {% if page.url == '/2015/10/20/accursed/' %} class="current"
+				{% else %}
+					{% if page.url == '/2015/10/20/big-red/' %} class="current"
+						{% else %}
+							{% if page.url == '/2015/10/20/font/' %} class="current"
+								{% else %}
+									{% if page.url == '/2015/10/20/salt/' %} class="current"
+										{% else %}
+											{% if page.url == '/2015/10/20/squid/' %} class="current"
+												{% else %}
+													{% if page.url == '/2015/10/20/type-book/' %} class="current"
+												{% endif %}
+										{% endif %}
+								{% endif %}
+						{% endif %}
+				{% endif %}
+		{% endif %} >Portfolio</a></li>
+
 			<li><a href="{{ site.baseurl }}/contact/" {% if page.url == '/contact/' %} class="current" {% endif %} >Contact</a></li>
 
 		</ul>
