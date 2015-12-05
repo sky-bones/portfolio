@@ -3,7 +3,14 @@
 <head>
 	<link rel="shortcut icon" href="{{site.baseurl}}/icons/favicon.ico"/>
 	<meta charset="utf-8">
-	<title>{{site.baseurl}}{{page.title}}</title>
+	{% if page.url == '/' %}
+		<title>Elizabeth Nichols</title>
+	{% elsif page.url == '/contact/' %}
+		<title>Contact</title>
+	{% else %}
+		<title>{{site.baseurl}}{{page.title}}</title>
+	{% endif %}
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/portfolio.css">
 
