@@ -291,10 +291,19 @@ header {
 	border: none;
 }
 
-
 p {
 	padding-left: 1.25em;
 }
+
+.bm body{
+	background-color: blue;
+	padding: 400em;
+	background-image: url("../img/404-5-505/ghost.png");
+	background-repeat: repeat;
+}
+
+
+
 
 @media only screen and (min-width: 38em) {
 
