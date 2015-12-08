@@ -297,9 +297,18 @@ p {
 
 .bg-img{
 	padding: 1em;
-
 	background-image: url("../img/errorimgs/ghosts.png");
 	background-repeat: repeat;
+}
+
+.bg-img-1{
+	padding: 1em;
+	background-image: url("../img/errorimgs/space.png");
+	background-repeat: repeat;
+	cursor: url("http://ani.cursors-4u.net/games/gam-16/gam1547.cur") 16 16, pointer;
+
+
+	/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url("http://ani.cursors-4u.net/games/gam-16/gam1547.cur"), progress !important;} /* End http://www.cursors-4u.com */
 }
 
 .text-bx {
@@ -326,6 +335,10 @@ p {
 }
 
 .bg-img {
+	padding: 5em;
+}
+
+.bg-img-1 {
 	padding: 5em;
 }
 
