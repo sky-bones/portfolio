@@ -295,13 +295,26 @@ p {
 	padding-left: 1.25em;
 }
 
-.bm body{
-	background-color: blue;
-	padding: 400em;
-	background-image: url("../img/404-5-505/ghost.png");
+.bg-img{
+	padding: 1em;
+
+	background-image: url("../img/errorimgs/ghosts.png");
 	background-repeat: repeat;
 }
 
+.text-bx {
+	padding: 1em;
+	margin: 2em;
+	background-color: white;
+}
+
+.errormsg {
+	padding: 0;
+}
+
+.errorh {
+	color:#E90034;
+}
 
 
 
@@ -310,6 +323,14 @@ p {
 	.title-align-meduim {
 		text-align: left;
 		padding-left: 1.5em;
+}
+
+.bg-img {
+	padding: 5em;
+}
+
+.text-bx {
+	padding: 3em;
 }
 
 }
