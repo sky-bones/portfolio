@@ -306,9 +306,6 @@ p {
 	background-image: url("../img/errorimgs/space.png");
 	background-repeat: repeat;
 	cursor: url("http://ani.cursors-4u.net/games/gam-16/gam1547.cur") 16 16, pointer;
-
-
-	/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url("http://ani.cursors-4u.net/games/gam-16/gam1547.cur"), progress !important;} /* End http://www.cursors-4u.com */
 }
 
 .text-bx {
