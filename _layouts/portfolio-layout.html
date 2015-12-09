@@ -8,13 +8,13 @@ layout: default
 
 <nav class="nex" id="nav2" role="navigation-next-back">
 	<ul class="grid">
-		{% if page.previous %}
+		{% if page.next %}
 			<li class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2">
-			<a class="back nextback-text" href="{{site.baseurl}}{{page.previous.url}}">Back</a></li>
+			<a class="back nextback-text" href="{{site.baseurl}}{{page.next.url}}">Back</a></li>
 		{% endif %}
 
-		{% if page.next %}
-			<li class="unit unit-xs-1-2 {% if page.previous == nil %}unit-offset-xs-1-2{% endif %}"><a class="next nextback-text" href="{{site.baseurl}}{{page.next.url}}">Next</a></li>
+		{% if page.previous %}
+			<li class="unit unit-xs-1-2 {% if page.next == nil %}unit-offset-xs-1-2{% endif %}"><a class="next nextback-text" href="{{site.baseurl}}{{page.previous.url}}">Next</a></li>
 		{% endif %}
 	</ul>
 </nav>
