@@ -4,8 +4,8 @@
 	<link rel="shortcut icon" href="{{site.baseurl}}/icons/favicon.ico"/>
 	<meta charset="utf-8">
 	{% if page.url == '/' %}
-		<title>Elizabeth Nichols • Designer & Writer</title>
-	{% elsif page.url == '/contact/' %}
+		<title>Elizabeth Nichols • Designer &amp; Writer</title>
+	{% elsif page.url == '/contact' %}
 		<title>Contact</title>
 	{% else %}
 		<title>{{site.baseurl}}{{page.title}}</title>
@@ -52,19 +52,19 @@
 		</label>
 	<nav class="nav-pad nav" id="navigation" role="navigation">
 		<ul>
-			<li><a href="{{site.baseurl}}/" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
+			<li><a href="/" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
 
-			<li><a href="{{site.baseurl}}/accursed/" {% if page.url == '/accursed/' %} class="current"
+			<li><a href="{{site.baseurl}}/accursed" {% if page.url == '/accursed' %} class="current"
 				{% else %}
-					{% if page.url == '/2015/10/20/big-red/' %} class="current"
+					{% if page.url == '/big-red' %} class="current"
 						{% else %}
-							{% if page.url == '/2015/10/20/font/' %} class="current"
+							{% if page.url == '/font' %} class="current"
 								{% else %}
-									{% if page.url == '/2015/10/20/salt/' %} class="current"
+									{% if page.url == '/salt' %} class="current"
 										{% else %}
-											{% if page.url == '/2015/10/20/squid/' %} class="current"
+											{% if page.url == '/squid' %} class="current"
 												{% else %}
-													{% if page.url == 'type-book/' %} class="current"
+													{% if page.url == '/type-book' %} class="current"
 												{% endif %}
 										{% endif %}
 								{% endif %}
@@ -72,7 +72,7 @@
 				{% endif %}
 		{% endif %} >Portfolio</a></li>
 
-			<li><a href="{{ site.baseurl }}/contact/" {% if page.url == '/contact/' %} class="current" {% endif %} >Contact</a></li>
+			<li><a href="{{site.baseurl}}/contact" {% if page.url == '/contact' %} class="current" {% endif %} >Contact</a></li>
 
 		</ul>
 	</nav>
