@@ -1,2 +1,2 @@
-permalink: pretty
-baseurl: " "
+permalink: :title
+baseurl: ""
