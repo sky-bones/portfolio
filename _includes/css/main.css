@@ -89,7 +89,7 @@ li {
 header {
 	background-color: white;
 	position: relative;
-	background-image: url("../img/pattern.png");
+	/* background-image: url("../img/pattern.png"); */
 }
 
 .nav {
