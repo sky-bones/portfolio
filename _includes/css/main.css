@@ -18,13 +18,13 @@ html {
     box-sizing: inherit;
 }
 
+
 @font-face {
-	font-family: 'Halant';
-	src: url('fonts/halant-bold-webfont.woff') format('woff');
+	font-family: 'Khula';
+	src: url('khula-extrabold-webfont.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
 }
-
 
 @font-face {
 	font-family: 'Halant';
@@ -279,7 +279,7 @@ header {
     align-items: left;
 }
 
-.overlay h2 {
+.overlay h3 {
 	margin: 25px 0 0 20px ;
 	color: black;
 }
@@ -354,7 +354,8 @@ p {
 	main {
 		float: right;
 		width: calc(100% - 210px);
-		padding: 3em;
+		padding: 2em 3em 3em 3em;
+
 	}
 
 	.nav-label {
