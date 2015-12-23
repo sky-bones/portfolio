@@ -3,6 +3,11 @@ html {
   font-weight: 400;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font: 100% 'Khula', 'Arial', sans-serif;
+  font-weight: 800;
+}
+
 @media only screen and (min-width: 60em) {
 
   html {
@@ -210,10 +215,4 @@ sub {
 .gutter-quarter, .gutter-1-4 {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
-}
-
-
-h1, h2, h3, h4, h5, h6 {
-  font: 'Khula', 'Arial', sans-serif;
-  font-weight: bold;
 }
