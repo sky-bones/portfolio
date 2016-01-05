@@ -49,7 +49,7 @@
 </div>
 
 <!-- logo stuff (sider really) -->
-<div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-3 unit-l-2-3 text-right">
+<div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-3 unit-l-2-3">
 	<input type="checkbox" class="nav-check" id="nav-check">
 		<label class="nav-label" for="nav-check">
 			<img class="nav-open" src="{{site.baseurl}}/icons/nav-open.svg" alt="Open Navigation">
@@ -59,9 +59,9 @@
 		<ul>
 			<li><a href="/" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
 
-			<li><a href="{{site.baseurl}}/2015/10/23/accursed/" {% if page.url == '/2015/10/23/accursed/' %} class="current"
+			<li><a href="{{site.baseurl}}/accursed" {% if page.url == '/2015/10/23/accursed/' %} class="current"
 				{% else %}
-					{% if page.url == '/big-red' %} class="current"
+					{% if page.url == '/big-red/' %} class="current"
 						{% else %}
 							{% if page.url == '/font' %} class="current"
 								{% else %}
