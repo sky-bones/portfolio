@@ -59,7 +59,8 @@
 		<ul>
 			<li><a href="/" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
 
-			<li><a href="/accursed" {% if page.url == '/accursed' %} class="current"
+			<li><a href="/record" {% if page.url == '/record' %} class="current"
+			{% if page.url == '/accursed' %} class="current"
 				{% else %}
 					{% if page.url == '/big-red' %} class="current"
 						{% else %}
@@ -75,6 +76,7 @@
 								{% endif %}
 						{% endif %}
 				{% endif %}
+			{% endif %}
 		{% endif %} >Portfolio</a></li>
 
 			<li><a href="/contact" {% if page.url == '/contact' %} class="current" {% endif %} >About</a></li>
