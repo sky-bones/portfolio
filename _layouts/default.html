@@ -59,8 +59,11 @@
 		<ul>
 			<li><a href="/" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
 
-			<li><a href="/record" {% if page.url == '/record' %} class="current"
-			{% if page.url == '/accursed' %} class="current"
+			<li><a href="/2016/01/05/record/" {% if page.url == '/2016/01/05/record/' %} class="current"
+			{% else %}
+		{% if page.url == '/2016/01/10/bloodspore/' %} class="current"
+		{% else %}
+			{% if page.url == '/2015/10/23/accursed/' %} class="current"
 				{% else %}
 					{% if page.url == '/big-red' %} class="current"
 						{% else %}
@@ -77,9 +80,10 @@
 						{% endif %}
 				{% endif %}
 			{% endif %}
-		{% endif %} >Portfolio</a></li>
+		{% endif %}
+	{% endif %} >Portfolio</a></li>
 
-			<li><a href="/contact" {% if page.url == '/contact' %} class="current" {% endif %} >About</a></li>
+			<li><a href="/contact" {% if page.url == '/contact/' %} class="current" {% endif %} >About</a></li>
 
 		</ul>
 	</nav>
