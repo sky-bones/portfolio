@@ -26,12 +26,12 @@ html {
 	font-style: normal;
 }
 
-@font-face {
+/* @font-face {
 	font-family: 'Halant';
 	src: url('fonts/halant-medium-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
-}
+} */
 
 
 .img-flex {

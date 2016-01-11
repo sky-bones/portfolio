@@ -13,6 +13,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/portfolio.css">
+	<link href='https://fonts.googleapis.com/css?family=Halant' rel='stylesheet' type='text/css'>
 
 	<meta name="description" content="Portfolio of Elizabeth Nichols">
 
@@ -59,27 +60,30 @@
 		<ul>
 			<li><a href="/" {% if page.url == '/' %} class="current" {% endif %}>Home</a></li>
 
-			<li><a href="/2016/01/05/record/" {% if page.url == '/2016/01/05/record/' %} class="current"
-			{% else %}
+<li><a href="/2016/01/05/record/" {% if page.url == '/2016/01/05/record/' %} class="current"
+	{% else %}
 		{% if page.url == '/2016/01/10/bloodspore/' %} class="current"
-		{% else %}
-			{% if page.url == '/2015/10/23/accursed/' %} class="current"
+			{% else %}
+			{% if page.url == '/2016/01/07/hellboy/' %} class="current"
+			{% else %}
+		{% if page.url == '/2015/10/23/accursed/' %} class="current"
 				{% else %}
-					{% if page.url == '/big-red' %} class="current"
+				{% if page.url == '/2015/10/02/big-red/' %} class="current"
 						{% else %}
-							{% if page.url == '/font' %} class="current"
+						{% if page.url == '/2015/10/20/font/' %} class="current"
 								{% else %}
-									{% if page.url == '/salt' %} class="current"
+								{% if page.url == '/2015/10/20/salt/' %} class="current"
 										{% else %}
-											{% if page.url == '/squid' %} class="current"
+										{% if page.url == '/squid' %} class="current"
 												{% else %}
-													{% if page.url == '/type-book' %} class="current"
+												{% if page.url == '/2015/10/20/type-book/' %} class="current"
 												{% endif %}
 										{% endif %}
 								{% endif %}
 						{% endif %}
 				{% endif %}
 			{% endif %}
+		{% endif %}
 		{% endif %}
 	{% endif %} >Portfolio</a></li>
 
