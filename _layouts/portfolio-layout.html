@@ -22,7 +22,7 @@ layout: default
 
 <div class="grid">
 	<div class="unit unit-xs-1 title-align pad-t">
-		<h1>{{ page.title}}</h1>
+		<h1 class="yotta">{{ page.title}}</h1>
 	</div>
 </div>
 
@@ -31,7 +31,7 @@ layout: default
 			</div>
 
 <div class="grid">
-	<div class="unit unit-xs-1 title-align-meduim">
+	<div class="unit unit-xs-1 title-align-meduim concept-pad">
 		<h2>Concept</h2>
 	</div>
 
@@ -79,7 +79,7 @@ layout: default
 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter-1-4">
 <p>
 {% if page.finalwords2link %}
-		<a href="{{ page.finalwords2link }}">Read Salt</a>
+		<a class="salt-link" href="{{ page.finalwords2link }}">Read Salt</a>
 	{% else %}
 		{{ page.finalwords2 }}
 	{% endif %}
