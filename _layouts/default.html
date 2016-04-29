@@ -77,9 +77,12 @@
 							{% if page.url == '/squid' %} class="current"
 							{% else %}
 								{% if page.url == '/2015/10/20/type-book/' %} class="current"
-								{% else %}
-								{% if page.url == '/2016/03/15/sudwest/' %} class="current"
-								{% endif %}
+									{% else %}
+										{% if page.url == '/2016/03/15/sudwest/' %} class="current"
+											{% else %}
+												{% if page.url == '/2015/10/20/squid/' %} class="current"
+										{% endif %}
+									{% endif %}
 								{% endif %}
 							{% endif %}
 						{% endif %}
