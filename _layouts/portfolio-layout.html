@@ -81,7 +81,11 @@ layout: default
 {% if page.finalwords2link %}
 		<a class="salt-link" href="{{ page.finalwords2link }}">Read Salt</a>
 	{% else %}
+		{% if page.finalwords2link2 %}
+			<a class="salt-link" href="{{ page.finalwords2link2 }}">Try out a live version!</a>
+	{% else %}
 		{{ page.finalwords2 }}
+	{% endif %}
 	{% endif %}
 	</p>
 	</div>
