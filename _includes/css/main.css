@@ -327,8 +327,15 @@ p {
 }
 
 .salt-link {
-	color: #ED0241;
+	background-color: #ED0241;
+	color: white;
 	font-weight: bold;
+	padding: 5px;
+}
+
+.salt-link:hover {
+	color: black;
+	border: 0;
 }
 
 hr {
