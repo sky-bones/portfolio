@@ -1,11 +1,11 @@
 html {
-  font: normal 100%/1.5 'Halant', 'Georgia', serif;
+  font: normal 100%/1.5 'Open Sans', 'Ariel', sans-serif;
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font: 100% 'Khula', 'Arial', sans-serif;
-  font-weight: 800;
+  font: 100% 'Cormorant Infant', 'Times', serif;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 60em) {
