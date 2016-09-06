@@ -104,8 +104,9 @@ header {
 }
 
 .nav li {
-	padding-right: 10px;
+	padding-right: 15px;
 }
+
 
 /* .nav-check:checked ~ .nav {
 	display: block;
@@ -166,9 +167,7 @@ header {
 	margin: 5px 0px 0px 10px;
 }
 
-.logo-current {
-	color: #ED0241;
-}
+
 
 .logo a {
 	display: block;
@@ -197,8 +196,10 @@ header {
 }
 
 .nex {
-  font-size: 1.2656rem;
-	height: 2.65em;
+	font: 100% 'Cormorant Infant', 'Times', serif;
+	font-style: bold;
+  font-size: 1rem;
+	height: 4.65em;
 
 }
 
@@ -209,18 +210,25 @@ header {
 }
 
 .back {
-	padding: 12px 12px 12px 10px;
+	padding: 12px 12px 12px 8px;
 	display: block;
 }
 
 .nextback-text {
 	color: black;
-	font-weight: bold;
 }
 
 .nextback-text:hover {
-	color: black;
-	border: none;
+	letter-spacing: .5px;
+	transition: .2s;
+	-webkit-transition: .2s;
+	-moz-transition: .2s;
+	-o-transition: .2s;
+}
+
+.nextback-text a:hover {
+	color: #ED0241;
+	font-stretch: 5000px;
 }
 
 .nex-list-nav {
@@ -349,7 +357,7 @@ hr {
 
 	.title-align-meduim {
 		text-align: left;
-		padding-left: 1.25em;
+		padding-left: .75em;
 }
 
 	.bg-img {
@@ -364,8 +372,8 @@ hr {
 		padding: 3em;
 }
 
-.nav li {
-	padding-right: 15px;
+.nex {
+	font-size: 1.2656rem;
 }
 
 }
@@ -396,14 +404,14 @@ hr {
 	.nav {
 		font-size: 1.0000rem;
 		display: block;
-		margin: 12em 0 0 0;
+		margin: 8em 0 0 0;
 		padding: 0;
-
 	}
 
 	.nav li {
 		text-align: left;
 		display: block;
+		margin-top: 5px;
 	}
 
 	.logo {
@@ -442,7 +450,6 @@ hr {
 }
 
 	.contact-links {
-
 		margin: 0;
 }
 
