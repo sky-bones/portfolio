@@ -28,8 +28,8 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-
 }
+
 
 a {
 	text-decoration: none;
@@ -43,7 +43,6 @@ a:focus {
 
 a:hover {
 	color: #ED0241;
-  border-top: 1px solid black;
 }
 
 ul {
@@ -75,34 +74,46 @@ h2 {
 
 li {
 	list-style-type: none;
+	display: inline;
 }
 
 header {
 	background-color: white;
-	position: relative;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000000;
+	overflow: hidden;
 	/* background-image: url("../img/pattern.png"); */
+}
+
+.masthead {
+	padding: 5em 10px 0 10px;
 }
 
 .nav {
 	font-size: 1.1250rem;
 	width: 10em;
 	margin: 10px 0 0 0;
-	display: none;
+	 /*display: none; */
 }
 
+.nav-pad {
+	padding: 10px 20px 10px 0;
+	width: 100%;
+}
 
-.nav-check:checked ~ .nav {
+.nav li {
+	padding-right: 10px;
+}
+
+/* .nav-check:checked ~ .nav {
 	display: block;
 }
 
 .nav-label {
 	display: inline-block;
 	cursor: pointer;
-}
-
-.nav-pad {
-	padding: 10px 20px 10px 0;
-	width: 100%;
 }
 
 .nav-check {
@@ -112,12 +123,6 @@ header {
 
 .nav-check:checked ~ .nav-label {
 	padding: 0;
-}
-
-.nav a:hover {
-	padding: 3px;
-	color: white;
-	background-color: black;
 }
 
 .nav-open {
@@ -142,17 +147,27 @@ header {
 .nav-check:checked ~ .nav-label .nav-close {
 	display: block;
 }
+*/
+
+.nav a:hover {
+	color: #ED0241;
+	border-bottom: 2px solid black;
+}
+
 
 .current {
-	color: #DD002B;
-	padding-right: 15px;
-  border-right: 1px solid black;
+	color: #ED0241;
+	border-bottom: 2px solid #ED0241;
 }
 
 .logo {
-	height: 100px;
-	width: 180px;
-	margin-left: 10px;
+	height: 60px;
+	width: 120px;
+	margin: 5px 0px 0px 10px;
+}
+
+.logo-current {
+	color: #ED0241;
 }
 
 .logo a {
@@ -184,24 +199,22 @@ header {
 .nex {
   font-size: 1.2656rem;
 	height: 2.65em;
-	background-color: #E90034;
+
 }
 
 .next {
-	padding: 12px 16px 12px 12px;
-	background-color: #E90034;
+	padding: 12px 10px 12px 12px;
 	display: block;
 	text-align: right;
 }
 
 .back {
-	padding: 12px 12px 12px 16px;
-	background-color: #E90034;
+	padding: 12px 12px 12px 10px;
 	display: block;
 }
 
 .nextback-text {
-	color: white;
+	color: black;
 	font-weight: bold;
 }
 
@@ -351,6 +364,10 @@ hr {
 		padding: 3em;
 }
 
+.nav li {
+	padding-right: 15px;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -369,15 +386,19 @@ hr {
 
 	}
 
+	.masthead {
+		padding-top: 0;
+	}
+
 	.nav-label {
 		display: none;
 }
 	.nav {
 		font-size: 1.0000rem;
 		display: block;
-		margin: 10em 0 0 0;
+		margin: 12em 0 0 0;
 		padding: 0;
-		position: absolute;
+
 	}
 
 	.nav li {
@@ -388,6 +409,7 @@ hr {
 	.logo {
 		display: block;
 		z-index: 1000;
+		margin: 35px 0px 0px 30px;
 	}
 
 	.process-large {
@@ -420,6 +442,7 @@ hr {
 }
 
 	.contact-links {
+
 		margin: 0;
 }
 
