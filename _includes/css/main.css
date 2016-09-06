@@ -73,8 +73,7 @@ h2 {
 }
 
 li {
-	list-style-type: none;
-	display: inline;
+
 }
 
 header {
@@ -105,6 +104,8 @@ header {
 
 .nav li {
 	padding-right: 15px;
+	list-style-type: none;
+	display: inline;
 }
 
 
@@ -261,7 +262,7 @@ header {
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: hsla(100, 100%, 100%, 0.85);
+    background-color: hsla(100, 100%, 100%, 0.75);
     border: 0;
 
     display: -ms-flexbox;
@@ -290,7 +291,7 @@ header {
 }
 
 .overlay h3 {
-	margin: 25px 0 0 20px ;
+	margin: 20px 10px 0 20px ;
 	color: black;
 }
 
@@ -348,6 +349,12 @@ hr {
 	background-color: #ED0241;
 	color: #ED0241;
 }
+
+.portrait {
+	padding: 9px;
+	border: 6px solid black;
+}
+
 
 
 @media only screen and (min-width: 38em) {
