@@ -168,7 +168,6 @@ header {
 }
 
 
-
 .logo a {
 	display: block;
 }
@@ -196,8 +195,7 @@ header {
 }
 
 .nex {
-	font: 100% 'Cormorant Infant', 'Times', serif;
-	font-style: bold;
+	font: 100% 'Times', serif;
   font-size: 1rem;
 	height: 4.65em;
 
@@ -228,7 +226,6 @@ header {
 
 .nextback-text a:hover {
 	color: #ED0241;
-	font-stretch: 5000px;
 }
 
 .nex-list-nav {
