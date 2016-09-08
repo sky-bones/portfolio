@@ -380,6 +380,11 @@ hr {
 	font-size: 1.2656rem;
 }
 
+.second-para {
+	padding-left: 1.5rem;
+
+}
+
 }
 
 @media only screen and (min-width: 60em) {
