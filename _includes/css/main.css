@@ -191,9 +191,6 @@ header {
 	cursor: pointer;
 }
 
-.contact-links {
-	margin: auto;
-}
 
 .nex {
 	font: 100% 'Cormorant Infant', 'Times', serif;
@@ -328,7 +325,7 @@ p {
 }
 
 .errorh {
-	color:#E90034;
+	color:#ED0241;
 }
 
 .salt-link {
@@ -351,11 +348,34 @@ hr {
 }
 
 .portrait {
-	padding: 9px;
+	padding: 8px;
 	border: 6px solid black;
 }
 
+.portrait-pad {
+	padding-bottom: 1.5em;
+}
 
+.contact-links {
+	margin: auto;
+}
+
+.contact-link-padding {
+	padding-right: 1.5rem;
+}
+
+.contact-style a{
+	color: #ED0241;
+}
+
+.contact-style a:hover {
+	color: black;
+	border-bottom: 2px solid #ED0241;
+}
+
+.pad-email {
+	padding: 0.75em;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -383,6 +403,11 @@ hr {
 .second-para {
 	padding-left: 1.5rem;
 
+}
+
+.portrait-pad {
+	padding-right: .75rem;
+	padding-left: .75rem;
 }
 
 }
@@ -464,6 +489,11 @@ hr {
 
 	p {
 		padding: 0;
+}
+
+.portrait-pad {
+	padding-left: 0;
+	padding-right: 1.5rem;
 }
 
 }
