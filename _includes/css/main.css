@@ -493,6 +493,10 @@ hr {
 		padding: 0;
 }
 
+	.pad-email {
+		padding: 0;
+}
+
 .portrait-pad {
 	padding-left: 0;
 	padding-right: 1.5rem;
