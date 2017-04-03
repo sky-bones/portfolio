@@ -2,11 +2,9 @@
 
 ## Teller of Stories, Defender of Voices
 
-I am a graphic designer because there are voices and ideas that needs to be seen and heard. I want to give back to my community, improve my community and allow design and things that are designed to be accessible to all.
+Graduated from Algonquin College in June 2016, and looking for an career with people who design with purpose, and give back to the community. I'm fond of bright colours, unusual stories and science fiction. I believe in teamwork, honesty, and kindness.
 
-One of the most compelling ideas about graphic design is it's ability to change and shape the world around it. I want to shape it for the better, and find a place where the views of the benefits of design, beyond readability and good looks, but more the idea of someone having access to an idea or concept that would change the way they view the world.
-
-I love grilled cheese, drawing spooky eyes, flowers and gardening. I am a graduate of Algonquin College and looking for work!
+I'm looking for work! I'm currently based in Ottawa.
 
 ---
 
